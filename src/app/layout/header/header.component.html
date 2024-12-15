@@ -1,0 +1,37 @@
+<header
+  class="relative z-50 w-full flex-none text-sm/6 font-semibold text-slate-900"
+>
+  <nav aria-label="Global" class="max-w-container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="relative flex items-center py-[2.125rem]">
+      <a class="flex-none text-slate-900" href="/"
+        ><span class="sr-only">Micro Frontend</span>
+        <div class="text-lg font-bold bg-sky-500 text-white py-2 px-4 rounded-3xl">Micro Frontend</div>
+      </a>
+      <div class="ml-[1rem] lg:flex lg:items-center">
+        <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a
+        ><a class="ml-8" routerLink="/data-analysis" routerLinkActive="active">Data Analysis</a
+        >
+      </div>
+      <button
+        type="button"
+        class="-my-1 -mr-1 ml-auto flex size-8 items-center justify-center lg:hidden"
+      >
+        <span class="sr-only">Open navigation</span
+        ><svg viewBox="0 0 24 24" class="size-6 stroke-slate-900">
+          <path
+            d="M3.75 12h16.5M3.75 6.75h16.5M3.75 17.25h16.5"
+            fill="none"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          ></path>
+        </svg>
+      </button>
+      <div
+        class="hidden lg:ml-8 lg:flex lg:ml-auto lg:items-center lg:border-l lg:border-slate-900/15 lg:pl-8"
+      >
+        <a routerLink="/login" routerLinkActive="active">Sign in</a>
+        <!-- <a class="ml-5" href="/login">Sign in</a> -->
+      </div>
+    </div>
+  </nav>
+</header>
