@@ -1,5 +1,5 @@
 {
-  "name": "micro-frontend",
+  "name": "micro-frontend-host",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

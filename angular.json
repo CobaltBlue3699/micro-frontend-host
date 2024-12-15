@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "micro-frontend": {
+    "micro-frontend-host": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/micro-frontend",
+            "outputPath": "dist/micro-frontend-host",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "micro-frontend:build:production"
+              "buildTarget": "micro-frontend-host:build:production"
             },
             "development": {
-              "buildTarget": "micro-frontend:build:development"
+              "buildTarget": "micro-frontend-host:build:development"
             }
           },
           "defaultConfiguration": "development"
