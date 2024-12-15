@@ -2,7 +2,6 @@ import { Component, inject, OnInit } from '@angular/core';
 import { HeaderComponent } from "./layout/header/header.component";
 import { SharedModule } from './shared/shared.module';
 import { TranslateService } from '@ngx-translate/core';
-import { Lanauages } from './core/enums/languages';
 
 @Component({
   selector: 'app-root',

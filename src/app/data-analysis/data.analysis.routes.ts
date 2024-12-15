@@ -4,6 +4,6 @@ export const DATA_ANALYSIS_ROUTES: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    loadComponent: () => import('./data-analysis.component').then(m => m.DataAnalysisComponent),
+    loadChildren: () => import('./data-analysis.module').then(m => m.DataAnalysisModule),
   }
 ];
